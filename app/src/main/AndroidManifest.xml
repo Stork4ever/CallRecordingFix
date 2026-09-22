@@ -3,7 +3,13 @@
         <package android:name="com.android.incallui"/>
         <package android:name="com.android.soundrecorder"/>
     </queries>
-    <application android:theme="@style/AppTheme" android:label="Call Recording Fix" android:allowBackup="false" android:supportsRtl="true">
+    <application
+        android:theme="@style/AppTheme"
+        android:label="Call Recording Fix"
+        android:icon="@drawable/ic_launcher"
+        android:roundIcon="@drawable/ic_launcher"
+        android:allowBackup="false"
+        android:supportsRtl="true">
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
